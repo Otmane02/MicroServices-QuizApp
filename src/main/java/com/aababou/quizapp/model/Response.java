@@ -2,5 +2,17 @@ package com.aababou.quizapp.model;
 
 /*
 author otman
-    */public class Response {
+    */
+
+import lombok.Data;
+
+
+import lombok.RequiredArgsConstructor;
+
+@Data
+@RequiredArgsConstructor
+public class Response {
+
+    int id;
+    String response;
 }
